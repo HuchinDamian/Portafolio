@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Damián Huchín Portafolio</title>
+
+    <link rel="shortcut icon" href="./images/Icon.ico" type="image/x-icon" />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--Boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="luz">
+    <nav class="navbar mb-3" id="Inicio">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">Damián Huchín Portafolio</span>
+        <button onclick="ModoOscuro(1)" id = "b-darkMode" class="btn text-white"><i class="bx bxs-moon"></i></button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card mb-3">
+        <div class="row g-0 bg-light">
+          <div class="col-md-4 perfil-foto">
+            <img
+              src="/images/Perfil.jpg"
+              class="img-fluid rounded-start"
+              alt="Yo :D"
+            />
+          </div>
+          <div class="col-md-8 ">
+            <div class="card-body">
+              <h5 class="card-title">
+                Damián Hernández Huchín | 20 años |
+                <img
+                  src="https://static.xx.fbcdn.net/images/emoji.php/v9/t8a/1/32/1f1f2_1f1fd.png"
+                  alt=""
+                />
+              </h5>
+              <p class="card-text">
+                Estudiante en Matemáticas Aplicadas y Computación en la Facultad
+                de Estudios Superiores (FES) Acatlán UNAM
+                <br />
+                <br />
+                Desarrollador Frontend, Backend y Movil
+                <br />
+                <br />
+                <i class="bx bxl-twitter"></i> Twitter:
+                <a href="https://twitter.com/DamianHuchin/" target="_blank">@DamianHuchin</a>
+                <br />
+                <i class="bx bxl-github"></i> Github:
+                <a href="https://github.com/HuchinDamian/" target="_blank">HuchinDamian </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Portafolio</h2>
+
+      <div class="card mb-3 proflag">
+        <img src="./images/ProFlag.png" class="card-img-top foto" alt="..." />
+        <div class="card-body bg-light">
+          <h5 class="card-title">Pro Flag App</h5>
+          <p class="card-text">
+            Aplicación para Pro Flag México para administrar jugadores, partidos, equipos y mas            <br />
+            <br />
+            Desarrollada en
+            <span class="react"><i class="bx bxl-react"></i> React Native</span>
+            y
+            <span class="firebase"
+              ><i class="bx bxl-firebase"></i> Firebase</span
+            >
+          </p>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Ver mas
+          </button>
+        </div>
+      </div>
+
+      <div class="card mb-3 moon">
+        <img
+          src="./images/YouMakeAMoon.jpg"
+          class="card-img-top foto2"
+          alt="..."
+        />
+        <div class="card-body bg-light">
+          <h5 class="card-title">You Make A Moon</h5>
+          <p class="card-text">
+            Una página web para crear imágenes con la temática de "logro" del juego 
+            Super Mario Odyssey para la página de Facebook La Odisea De Los Memes
+            <br />
+            <br />
+            Desarrollada en
+            <span class="python"
+              ><i class="bx bxl-python"></i> Python (Flask)</span
+            >, <span class="html"><i class="bx bxl-html5"></i> HTML</span>,
+            <span class="css"><i class="bx bxl-css3"></i> CSS</span> y
+            <span class="javascript"><i class="bx bxl-javascript"></i> JS</span>
+          </p>
+
+          <a
+            href="https://you-make-a-moon.herokuapp.com/"
+            type="button"
+            target="_blank"
+            class="btn btn-primary"
+            >Ir a la pagina web</a
+          >
+          <a
+            href="https://github.com/HuchinDamian/YouMakeAMoonOnline"
+            type="button"
+            target="_blank"
+            class="btn btn-secondary"
+            >Repositorio</a
+          >
+        </div>
+      </div>
+
+      <h2>Skillset</h2>
+
+    <div class="row align-items-center">
+        <div class="col mb-4">
+          <div class="skill skill-html" data-bs-toggle="tooltip"
+          data-bs-placement="top" title="HTML""><img
+            src="./images/HTML.png"
+            alt="HTML"
+          />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-css"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="CSS"
+        >
+          <img src="./images/CSS.png" alt="CSS" />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-js"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Javascript"
+        >
+          <img src="./images/JS.png" alt="Javascript" />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-reactnative"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="React Native"
+        >
+          <img src="./images/ReactNative.png" alt="React Native" />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-python"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Python 3"
+        >
+          <img src="./images/Python.png" alt="Python" />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-fb"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Firebase"
+        >
+          <img src="./images/Firebase.png" alt="Firebase" />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-java"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Java"
+        >
+          <img src="./images/Java.png" alt="Java" />
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div
+          class="skill skill-node"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Node JS"
+        >
+          <img src="./images/NodeJs.png" alt="Node JS" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <ul class="nav bg-dark">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#Inicio"
+          >Volver al inicio</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/HuchinDamian" target="_blank"><i class="bx bxl-github"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://twitter.com/DamianHuchin" target="_blank"><i class="bx bxl-twitter"></i></a>
+      </li>
+    </ul>
+
+    <!-- Modal de ProFlag-->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Pro Flag App</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Pro Flag App permite consultar partidos, ver sus estadisticas y
+              consultar sus campos.
+              <br />
+              Cuenta con un sistema de usuarios que permite hacer un pase de
+              lista desde la app antes de iniciar un partido, administrar el
+              equipo y notificar un cambio de juego.
+            </p>
+            <p>Capturas de pantalla de la app (BETA):</p>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/ProFlagSS/1.jpg" class="d-block m-auto" height="600px" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/ProFlagSS/2.jpg" class="d-block m-auto" height="600px" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/ProFlagSS/3.jpg" class="d-block m-auto" height="600px" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/ProFlagSS/4.jpg" class="d-block m-auto" height="600px" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p>
+              Proximamente en Google Play Store <br />
+              <img src="./images/GooglePlay.png" height="70px" alt="" />
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Boostrap scrip-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Scrips.js"></script>
+  </body>
+</html>
