@@ -1,13 +1,13 @@
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
-.luz{
-    background-image: url(./images/light-grey-terrazzo.png);
+.luz {
+  background-color: white;
 }
-.oscuro{
-    color: white;
-    background-image: url(./images/dark-grey-terrazzo.png);
+.oscuro {
+  color: white;
+  background-color: #242526;
 }
 
 h2 {
@@ -25,7 +25,7 @@ span {
 }
 
 .navbar {
-  background-color: #3772FF;
+  background-color: #3772ff;
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.2);
   color: white;
 }
@@ -43,6 +43,7 @@ span {
   display: block;
   width: 40%;
   margin: 0 auto;
+  padding: 1rem 0;
 }
 
 .foto2 {
@@ -57,18 +58,15 @@ span {
 }
 
 .perfil-foto img {
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 .proflag {
-  background-color: #f4d03f;
-  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
-  border-style: solid;
+  background-color: #3dd16e;
 }
 
 .moon {
-  background-color: #ffe53b;
-  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  background-color: #ff2929;
 }
 
 .card {
@@ -82,30 +80,54 @@ span {
 
 .react,
 .css {
-  color: #0093e9;
+  background-color: #0093e9;
+  padding: 0.3rem;
+  border-radius: 00.3rem;
+  margin: 0 0.5rem;
+  color: white;
+  display: inline-block;
 }
 
 .firebase,
 .html {
-  color: orange;
+  background-color: orange;
+  padding: 0.3rem;
+  border-radius: 00.3rem;
+  margin: 0.3rem 0.1rem;
+  color: white;
+  display: inline-block;
 }
 
 .python {
-  color: #2688c0;
+  background-color: #2688c0;
+  padding: 0.3rem;
+  border-radius: 00.3rem;
+  margin: 0 0.5rem;
+  color: white;
+  display: inline-block;
 }
 
 .javascript {
-  color: #e2d521;
+  background-color: #e2d521;
+  padding: 0.3rem;
+  border-radius: 00.3rem;
+  margin: 0 0.5rem;
+  color: white;
+  display: inline-block;
 }
 
 .skill {
   background-color: #f1f1f1;
   border-radius: 25px;
+  padding: 0.3rem;
+  border-radius: 00.3rem;
+  margin: 0 1rem;
+
 }
 
 .skill:hover {
   transition: box-shadow 0.3s ease;
-  box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.3rem 1rem rgba(172, 166, 166, 0.5);
 }
 
 .skill img {
@@ -116,41 +138,52 @@ span {
 }
 
 .skill-html {
-    background-color: #fadbc2;
+  background-color: #fadbc2;
 }
 
 .skill-css {
-    background-color: #c2f8fa;
+  background-color: #c2f8fa;
 }
 
 .skill-js {
-    background-color: #faf9c2;
+  background-color: #faf9c2;
 }
 
 .skill-reactnative {
-    background-color: #c2faf1;
+  background-color: #c2faf1;
 }
 
 .skill-python {
-    background-color: #c2e5fa;
+  background-color: #c2e5fa;
 }
 
 .skill-fb {
-    background-color: #faebc2;
+  background-color: #faebc2;
 }
 
 .skill-java {
-    background-color: #fad8c2;
+  background-color: #fad8c2;
 }
 
 .skill-node {
-    background-color: #c2fad3;
+  background-color: #c2fad3;
 }
 
 .skill-git {
-    background-color: #fac2c2;
+  background-color: #fac2c2;
 }
 
+.CookNote{
+  background-color: #ff4848;
+}
+
+.card-end{
+  margin-top: 1rem;
+}
+
+.ss-app{
+  border-radius: 1rem;
+}
 
 @media only screen and (max-width: 1000px) {
   .container {
